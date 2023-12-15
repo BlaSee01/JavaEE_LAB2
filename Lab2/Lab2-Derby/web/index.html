@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Lab2-Derby</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="Style/css/components.css">
+        <link rel="stylesheet" href="Style/css/icons.css">
+        <link rel="stylesheet" href="Style/css/responsee.css"> 
+    </head>
+    <body>
+        <h1>UBRANIA</h1>
+        <h2>Szukaj</h2>
+        <form class="customform" action="./Wypisywanie">
+            <p>Podaj ID</p>
+            <input type="text" name="id">
+            <p>Podaj typ</p>
+            <input type="text" name="type">
+            <input type="checkbox" name="sort"> Posortować alfabetycznie (?)
+            <br />
+            <div class="s-12 m-5 l-2 left"><button type="submit">Wyszukaj ubrania</button></div>
+        </form>
+        <form action="Wypisywanie.jsp" method="GET">
+                <input type="submit" value="Edytuj">
+        </form>
+    </body>
+</html>
